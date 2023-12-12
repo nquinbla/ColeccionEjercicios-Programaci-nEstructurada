@@ -12,3 +12,39 @@
 //Este es un concepto más de C++ que de C, pero puedes intentar imaginar cómo podrías organizar el código de la lista de estudiantes en términos de objetos y métodos en lugar de funciones y estructuras.
 
 #include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Estudiante {
+    string nombre;
+    int edad;
+    int numeroCuenta;
+};
+
+void printEstudiante(Estudiante estudiante) {
+    cout << "Nombre: " << estudiante.nombre << endl;
+    cout << "Edad: " << estudiante.edad << endl;
+    cout << "Numero de cuenta: " << estudiante.numeroCuenta << endl;
+}
+
+void printEstudianteRef(Estudiante &estudiante) {
+    cout << "Nombre: " << estudiante.nombre << endl;
+    cout << "Edad: " << estudiante.edad << endl;
+    cout << "Numero de cuenta: " << estudiante.numeroCuenta << endl;
+}
+
+void printEstudiantePtr(Estudiante *estudiante) {
+    cout << "Nombre: " << estudiante->nombre << endl;
+    cout << "Edad: " << estudiante->edad << endl;
+    cout << "Numero de cuenta: " << estudiante->numeroCuenta << endl;
+}
+
+int main() {
+    Estudiante estudiante = {"Juan", 20, 123456};
+    printEstudiante(estudiante);
+    printEstudianteRef(estudiante);
+    printEstudiantePtr(&estudiante);
+    return 0;
+}
+

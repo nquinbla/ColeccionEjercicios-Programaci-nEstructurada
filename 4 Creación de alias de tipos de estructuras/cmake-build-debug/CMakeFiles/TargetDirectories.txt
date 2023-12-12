@@ -1,4 +1,0 @@
-C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creación de alias de tipos de estructuras/cmake-build-debug/CMakeFiles/main.dir
-C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creación de alias de tipos de estructuras/cmake-build-debug/CMakeFiles/prueba.dir
-C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creación de alias de tipos de estructuras/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creación de alias de tipos de estructuras/cmake-build-debug/CMakeFiles/rebuild_cache.dir

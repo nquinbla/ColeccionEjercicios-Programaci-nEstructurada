@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creación de alias de tipos de estructuras
+# Install script for directory: C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creacion de alias de tipos de estructuras
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creación de alias de tipos de estructuras/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/nerea/OneDrive/Documentos/GitHub/ColeccionEjercicios-ProgramacionEstructurada/4 Creacion de alias de tipos de estructuras/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

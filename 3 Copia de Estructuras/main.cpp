@@ -11,8 +11,12 @@ struct Estudiante {
     int curso;
 };
 
-Estudiante copiaEstudiante(Estudiante estudiante) {
-    return estudiante;
+Estudiante copiaEstudiante(Estudiante est) {
+    Estudiante nuevoEst;
+    nuevoEst.nombre = est.nombre;
+    nuevoEst.edad = est.edad;
+    nuevoEst.curso = est.curso;
+    return nuevoEst;
 }
 
 int main() {

@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\nerea\OneDrive\Documentos\GitHub\ColeccionEjercicios-ProgramacionEstructurada\4 Creación de alias de tipos de estructuras Select CMakeLists.txt
